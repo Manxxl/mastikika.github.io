@@ -1,0 +1,1806 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Konkhmer+Sleokchher&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Konkhmer+Sleokchher&family=Koulen&family=Noto+Serif+Khmer:wght@100..900&display=swap');
+.header-1{
+     width: 420px;
+     height: 110px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(21, 198, 175);
+}
+.text-details p{
+     margin-top: 4px;
+     margin-left: 17px;
+     color: #fff;
+     font-weight: 700;
+     font-size: 14px;
+     /*background-color: blue;*/
+     font-family: "Noto Serif Khmer", serif;
+     line-height: 22px;
+
+}
+.header-1{
+     position: sticky;
+     top: 0;
+     z-index: 11000;
+}
+.logo-mid h1{
+     text-align: center;
+     color: #011d24;
+     font-size: 30px;
+     margin-top: 5px;
+     font-family: "Koulen", sans-serif;
+}
+.button-details button{
+     position: relative;
+     font-weight: 700;
+     background-color: rgb(219, 145, 48);
+     border: 1px solid blue;
+     width: 100%;
+     height: 85%;
+     top: 2px;
+     left: 2px;
+     color: #fff;
+     border-radius: 10px;
+     font-size: 18px;
+     cursor: pointer;
+     animation: bounce 1s infinite;
+}
+.process-text .text{
+     color: rgb(31, 100, 31) ;
+     font-size: 30px;
+     text-align: end;
+     line-height: 38px;
+     margin-top: 5px;
+}
+.product-process{
+     position: relative;
+     width: 420px;
+     height: 1260px;
+     margin: auto;
+     background: url(./images/backgroundmastikika.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     opacity: 1000;
+}
+.healing-product h2{
+     text-align: center;
+     font-size: 23px;
+     color: rgb(204, 125, 7);
+     font-weight: 700;
+     font-family: "Noto Serif Khmer", serif;
+     margin-top: 20px;
+}
+.process-8{
+     width: 420px;
+     height: 290px;
+     background-color: rgb(5, 67, 148);
+     border: 10px solid rgb(230, 205, 68);
+     border-radius: 10px;
+     opacity: 100;
+     margin-top: 30px;
+}
+.product-click{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.product-click p{
+     font-size: 15px;
+     width: 100%;
+     line-height: 33px;
+     margin-left: 19px;
+     font-family: "Noto Serif Khmer", serif;
+     color: #ffff;
+     
+}
+.product-click img{
+     width: 25px;
+     height: 20px;
+     margin-right: 10px;
+     
+
+
+}
+.call{
+     position: fixed;
+     display: inline-block;
+     top: 32%;
+     left: 52%;
+     z-index: 100000;
+     background-color: red;
+     height: 40px;
+     width: 170px;
+     border-radius: 30px;
+     animation: shake 2s  infinite;
+}
+@keyframes shake {
+     0% { transform: translate(1px, 1px) rotate(0deg); }
+     90% { transform: translate(1px, 2px) rotate(0deg); }
+     100% { transform: translate(1px, -2px) rotate(-1deg); }
+   }
+.call p{
+     position: relative;
+     padding-top: 5px;
+     padding-left: 2px;
+     font-size: 30px;
+     color: #fff;
+     font-weight: 800;
+     animation: bounce 1s  infinite;
+}
+.confidence-product{
+     position: relative;
+     top: 45px;
+     width: 420px;
+     height: 530px;
+     background-color: rgb(9, 49, 26);
+     margin: auto;
+     border-radius: 10px;
+     opacity: 0.8;
+     display: flex;
+     flex-direction: column;
+
+}
+.confidence-text-1{
+     width: 100%;
+     height: 170px;
+     /*background-color: bisque;*/
+}
+.confidence-text-1 .worry{
+     color: rgb(235, 235, 49);
+     font-family: "Noto Serif Khmer", serif;
+     margin-left: 15px;
+     margin-top: 15px;
+     font-weight: 700;
+}
+.confidence-text-1 .about{
+     font-family: "Noto Serif Khmer", serif;
+     margin-left: 40px;
+     margin-top: 7px;
+     color: #fff;
+     font-size: 19px;
+     text-decoration: underline;
+}
+.confidence-text-1 .problem{
+     color: rgb(124, 253, 98);
+     font-family: "Noto Serif Khmer", serif;
+     text-align: end;
+     font-size: 16px;
+     margin-right: 5px;
+     
+}
+.confidence-text-2{
+     width: 100%;
+     height: 330px;
+     /*background-color: aquamarine;*/
+}
+.confidence-text-2-details{
+     width: 92%;
+     height: 100%;
+     background-color: #fffafa;
+     margin: auto;
+     border-radius: 10px;
+}
+.confidence-text-2-details p{
+     font-size: 15px;
+     padding-left: 24px;
+     padding-top: 8px;
+     line-height: 23px;
+     font-weight: 700;
+     color: rgb(10, 0, 0);
+     font-weight: 500;
+     letter-spacing: 1px;
+     font-family: "Noto Serif Khmer", serif;
+     text-align: justify;
+}
+
+.sale-off-product{
+     position: relative;
+     top: 65px;
+     width: 420px;
+     height: 930px;
+     margin: auto;
+     border-radius: 10px;
+     background-color: rgb(248, 191, 85);
+     opacity: 10000;
+}
+.sale-off-inside-1{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.best-sale-off{
+     width: 100%;
+     height: 45px;
+     /*background-color: aqua;*/
+     margin-top: 25px;
+}
+.best-sale-off h2{
+     width: 100%;
+     height: 100%;
+     font-size: 18px;
+     text-align: center;
+     padding-top: 10px;
+     color: rgb(19, 82, 71);
+     font-family: "Noto Serif Khmer", serif;
+}
+.sale-off-inside-2{
+     position: relative;
+     width: 100%;
+     height: 300px;
+     /*background-color: aquamarine;*/
+     display: flex;
+     flex-direction: row;
+}
+.best-sale-text{
+     position: relative;
+     width: 50%;
+     height: 100%;
+     /*background-color: tan;*/
+}
+.best-sale-text img{
+     position: relative;
+     width: 80%;
+     height: 40%;
+     left: 25%;
+     animation: bounce .3s ease-in-out infinite;
+     /*background-color: #0A6736;*/
+     margin: auto;
+}
+.best-sale-text h1{
+     position: relative;
+     left: 35px;
+     color: #FF001F;
+     font-family: "Noto Serif Khmer", serif;
+}
+.best-sale-text p{
+     position: relative;
+     left: 45px;
+     color: #FF001F;
+     font-family: "Noto Serif Khmer", serif;
+}
+.best-sale-photo{
+     position: relative;
+     width: 60%;
+     height: 100%;
+     /*background-color: tomato;*/
+}
+.best-sale-photo img{
+     position: relative;
+     width: 215px;
+     height: 310px;
+     top: 15px;
+     right: 10px;
+     /*background-color: #FF001F;*/
+}
+.sale-off-inside-3{
+     position: relative;
+     width: 80%;
+     height: 55px;
+     margin: auto;
+     background-color: #0A6736;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: row;
+}
+.text-count-down-1{
+     position: relative;
+     width: 35%;
+     height: 100%;
+     /*background-color: #FF001F;*/
+     
+}
+.text-count-down-1 p{
+     position: relative;
+     font-size: 14px;
+     /*background-color: #fff;*/
+     border-right: 1px solid #fff;
+     text-align: center;
+     line-height: 20px;
+     width: 100%;
+     height: 70%;
+     font-weight: 600;
+     border-top-left-radius: 30px;
+     border-bottom-left-radius: 30px;
+     padding-left: 5px;
+     padding-top: 2px;
+     margin-top: 6px;
+     color: #fff;
+     font-family: "Noto Serif Khmer", serif;
+}
+
+.text-count-down-2{
+     width: 65%;
+     height: 100%;
+     /*background-color: aqua;*/
+     display: flex;
+     flex-direction: column;
+}
+.text-count-down-a{
+     width: 100%;
+     height: 70%;
+     /*background-color: rgb(202, 212, 212);*/
+     display: flex;
+}
+.text-count-down-a p{
+     font-size: 25px;
+     padding-left: 21px;
+     margin-right: 5px;
+     padding-top: 5px;
+     color: #fff;
+}
+.text-count-down-b{
+     width: 100%;
+     height: 70%;
+     /*background-color:#FF001F;*/
+     display: flex;
+}
+.text-count-down-b p{
+     font-size: 15px;
+     padding-left: 18px;
+     margin-left: 2px;
+     margin-top: 2px;
+     color: yellow;
+}
+.sale-off-inside-4{
+     width: 100%;
+     height: 500px;
+     /*background-color: aquamarine;*/
+     margin: auto;
+}
+
+.sale-form{
+     width: 100%;
+     height: 100%;
+     /*background-color: burlywood;*/
+     display: flex;
+     flex-direction: column;
+}
+.sale-form form{
+     width: 100%;
+     height: 410px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 25px;
+     
+}
+.sale-form form input{
+     height: 100%;
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 10px;
+     text-align: start;
+     vertical-align: middle;
+     outline: none;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: "Noto Serif Khmer", serif;
+}
+.sale-form form button{
+     width: 100%;
+     height: 100%;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 700;
+     background-color: #FF001F;
+     cursor: pointer;
+     font-family: "Noto Serif Khmer", serif;
+}
+.sale-off-inside-5{
+     width: 100%;
+     height: 150px;
+     margin: auto;
+}
+.sale-off-inside-5 h2{
+     text-align: center;
+     font-size: 20px;
+     line-height: 35px;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+}
+.symptoms-products{
+     position: relative;
+     top: 35px;
+     width: 420px;
+     height: 970px;
+     margin: auto;
+     /*background-color: tomato;*/
+     display: flex;
+     flex-direction: column;
+}
+.symptoms-1{
+     width: 100%;
+     height: 120px;
+     /*background-color: #0A6736;*/
+     margin: auto;
+}
+.symptoms-1 h1{
+     position: relative;
+     display: flex;
+     text-align: center;
+     font-size: 35px;
+     font-family: "Noto Serif Khmer", serif;
+     left: 25px;
+     padding-left: 25px;
+     color: #FF001F;
+     
+}
+.symptoms-1 img{
+     position: relative;
+     width: 25px;
+     height: 25px;
+     right: 12px;
+     top: 14px;
+
+}
+.symptoms-1 h2{
+     text-align: center;
+     font-family: "Noto Serif Khmer", serif;
+     margin-top: 15px;
+     font-size: 30px;
+     color: #0A6736;
+
+}
+.symptoms-1 hr{
+     position: relative;
+     top: 10px;
+     margin: auto;
+     background: #0A6736;
+     
+}
+.symptoms-2{
+     position: relative;
+     top: 25px;
+     width: 420px;
+     height: 280px;
+     background: url(./images/background-product.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:auto;
+     background-attachment:initial;
+     border-radius: 20px;
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     opacity: 100;
+}
+.img-heart-beat-1{
+     position: relative;
+     width: 40%;
+     height: 100%;
+     /*background-color: #0A6736;*/
+}
+.img-heart-beat-1 .img-1 img{
+     position: relative;
+     opacity: 100;
+     width: 150px;
+     margin-left: 95px;
+     bottom: 50px;
+     animation: left-right 4s infinite;
+     animation-direction: alternate-reverse;
+     
+}
+@keyframes left-right {
+     0%   {img: red; left: -10px; right: 0px;}
+     25%  {img: yellow; left: -3px; right: 10px;}
+     50%  {img: blue; left: -10px; right: 2px;}
+     75%  {img: green; left: -5px; right: 30px;}
+     100% {img: red; left: -10px; right: 5px;}
+   }
+
+.img-heart-beat-1 .img-2 img{
+     position: relative;
+     opacity: 100;
+     bottom: 78px;
+     margin-left: 55px;
+     width: 150px;
+     animation: left-right-1 5s infinite;
+     animation-direction: alternate-reverse;
+
+     
+}
+@keyframes left-right-1 {
+     0%   {img: red; left: -10px; right: 0px;}
+     25%  {img: yellow; left: -3px; right: 10px;}
+     50%  {img: blue; left: -10px; right: 2px;}
+     75%  {img: green; left: -5px; right: 30px;}
+     100% {img: red; left: -10px; right: 5px;}
+   }
+.img-heart-beat-2{
+     position: relative;
+     width: 60%;
+     height: 100%;
+}
+.img-heart-beat-2 .img-3{
+     position: relative;
+     width: 280px;
+     height: 450px;
+     right: 15%;
+     bottom: 50%;
+}
+.lamp img{
+     position: absolute;
+     /*background-color: gold;*/
+     width: 38%;
+     height: 38%;
+     border-radius: 50%;
+     opacity: .7;
+     z-index: 100;
+     top: 22%;
+     left: 40%;
+     animation: lamp  infinite;
+     animation-duration: .9s;
+}
+@keyframes lamp {
+     from{opacity: 0.1;}
+     to{opacity: 0.2;}
+     from{opacity: 0.4;}
+     to{opacity: 0.8;}
+     from{opacity: 0.9;}
+     to{opacity: 0.4;}
+     from{opacity: 0.3;}
+     to{opacity: 0.1;}
+     
+     /*from{width: 100px; height: 80px;}
+     to{width: 60px; height: 80px;}
+
+     /*from {background-color: rgb(241, 165, 89);}
+     to {background-color: rgb(250, 91, 91);}
+
+     from {background-color: rgb(250, 166, 71);}
+     to {background-color: rgb(245, 241, 241);}
+
+     from{width: 100px; height: 80px;}
+     to{width: 60px; height: 80px;}
+     
+     /*from {background-color: rgb(245, 96, 11);}
+     to {background-color: rgb(243, 27, 27);}
+     
+     from {background-color: rgba(235, 140, 17, 0.822);}
+     to {background-color: rgb(250, 179, 25);}
+     from{width: 100px; height: 80px;}
+     to{width: 60px; height: 80px;}*/
+   }
+   .symptoms-3{
+     position: relative;
+     width: 420px;
+     height: 350px;
+     /*background-color: aqua;*/
+   }
+   .symptoms-text{
+     width: 90%;
+     height: 100%;
+     margin: auto;
+   }
+   .symptoms-text p{
+     font-size: 15px;
+     font-family: "Noto Serif Khmer", serif;
+     letter-spacing: 1px;
+     line-height: 33px;
+     font-weight: 600;
+     text-align: start;
+     text-align: justify;
+   }
+   .knee-enflamation{
+     position: relative;
+     width: 420px;
+     height: 320px;
+     top: 15px;
+     background:url(./images/background-leaf.jpg);
+     background-position: cover;
+     background-repeat:no-repeat;
+     background-size:center;
+     background-attachment:local;
+     margin: auto;
+     opacity: .9;
+   }
+   .anti-knee{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .knee-picture{
+     position: relative;
+     width: 100%;
+     height: 45%;
+     /*background-color: #FF001F;*/
+   }
+   .knee-picture img{
+     position: relative;
+     left: 35%;
+     top: 15px;
+     width: 30%;
+     border-radius: 50%;
+     border: 3px solid gold;
+     margin: auto;
+     opacity: 100;
+
+   }
+   .knee-text{
+     position: relative;
+     width: 100%;
+     height: 55%;
+     /*background-color: blueviolet;*/
+   }
+   .knee-text h1{
+     position: relative;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+     z-index: 100;
+   }
+   .knee-text p{
+     position: relative;
+     /*background-color: #FF001F;*/
+     width: 90%;
+     height: 80%;
+     top: 5px;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 37px;
+     font-family: "Noto Serif Khmer", serif;
+     margin: auto;
+     z-index: 100;
+     text-align: justify;
+   }
+   .bone-breaking{
+     position: relative;
+     top: 30px;
+     width: 420px;
+     height: 380px;
+     margin: auto;
+     background: url(./images/background-leaf.jpg);
+     background-position: cover;
+     background-repeat:no-repeat;
+     background-size:center;
+     background-attachment:local;
+   }
+   .anti-bone{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .bone-picture{
+     position: relative;
+     width: 100%;
+     height: 45%;
+   }
+   .bone-picture img{
+     position: relative;
+     left: 35%;
+     top: 25px;
+     width: 30%;
+     border-radius: 50%;
+     border: 3px solid gold;
+     margin: auto;
+     opacity: 100;
+   }
+   .bone-text{
+     position: relative;
+     width: 100%;
+     height: 55%;
+     /*background-color: blueviolet;*/
+     bottom: 10%;
+   }
+   .bone-text h1{
+     position: relative;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+     z-index: 100;
+     top: 25px;
+   }
+   .bone-text p{
+     position: relative;
+     /*background-color: #FF001F;*/
+     width: 90%;
+     height: 80%;
+     top: 35px;
+     font-weight: 600;
+     text-align: justify;
+     font-size: 18px;
+     line-height: 37px;
+     font-family: "Noto Serif Khmer", serif;
+     margin: auto;
+     z-index: 100;
+   }
+
+ /*======================start backpain===================*/
+   .back-pain{
+     position: relative;
+     top: 15px;
+     width: 420px;
+     height: 410px;
+     margin: auto;
+     background: url(./images/background-leaf.jpg);
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:inherit;
+     
+
+   }
+   .anti-backpain{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .backpain-picture{
+     position: relative;
+     width: 100%;
+     height: 45%;
+   }
+   .backpain-picture img{
+     position: relative;
+     left: 35%;
+     top: 35px;
+     width: 30%;
+     border-radius: 50%;
+     border: 3px solid gold;
+     margin: auto;
+     opacity: 100;
+   }
+   .backpain-text{
+     position: relative;
+     width: 100%;
+     height: 55%;
+     /*background-color: blueviolet;*/
+     bottom: 10%;
+   }
+   .backpain-text h1{
+     position: relative;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+     z-index: 100;
+     top: 25px;
+   }
+   .backpain-text p{
+     position: relative;
+     /*background-color: #FF001F;*/
+     width: 90%;
+     height: 80%;
+     top: 35px;
+     font-weight: 600;
+     text-align: justify;
+     font-size: 18px;
+     line-height: 37px;
+     font-family: "Noto Serif Khmer", serif;
+     margin: auto;
+     z-index: 100;
+   }
+
+   /*======================end backpain===================*/
+
+   .low-pain{
+     position: relative;
+     top: 10px;
+     width: 420px;
+     height: 380px;
+     margin: auto;
+     background: url(./images/background-leaf.jpg);
+     background-position: cover;
+     background-repeat:no-repeat;
+     background-size:center;
+     background-attachment:local;
+
+   }
+   .anti-lowpain{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .lowpain-picture{
+     position: relative;
+     width: 100%;
+     height: 45%;
+   }
+   .lowpain-picture img{
+     position: relative;
+     left: 35%;
+     top: 35px;
+     width: 30%;
+     border-radius: 50%;
+     border: 3px solid gold;
+     margin: auto;
+     opacity: 100;
+   }
+   .lowpain-text{
+     position: relative;
+     width: 100%;
+     height: 55%;
+     /*background-color: blueviolet;*/
+     bottom: 10%;
+   }
+   .lowpain-text h1{
+     position: relative;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+     z-index: 100;
+     top: 25px;
+   }
+   .lowpain-text p{
+     position: relative;
+     /*background-color: #FF001F;*/
+     width: 90%;
+     height: 80%;
+     top: 35px;
+     font-weight: 600;
+     text-align: justify;
+     font-size: 18px;
+     line-height: 37px;
+     font-family: "Noto Serif Khmer", serif;
+     margin: auto;
+     z-index: 100;
+   }
+   /*======================end backpain===================*/
+   .arm-pain{
+     position: relative;
+     top: 10px;
+     width: 420px;
+     height: 380px;
+     margin: auto;
+     background: url(./images/background-leaf.jpg);
+     background-position: cover;
+     background-repeat:no-repeat;
+     background-size:center;
+     background-attachment:local;
+
+   }
+   .anti-armpain{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+   }
+   .armpain-picture{
+     position: relative;
+     width: 100%;
+     height: 45%;
+   }
+   .armpain-picture img{
+     position: relative;
+     left: 35%;
+     top: 20px;
+     width: 26%;
+     height: 80%;
+     border-radius: 50%;
+     border: 3px solid gold;
+     margin: auto;
+     opacity: 100;
+   }
+   .armpain-text{
+     position: relative;
+     width: 100%;
+     height: 55%;
+     /*background-color: blueviolet;*/
+     bottom: 10%;
+   }
+   .armpain-text h1{
+     position: relative;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+     z-index: 100;
+     top: 25px;
+   }
+   .armpain-text p{
+     position: relative;
+     /*background-color: #FF001F;*/
+     width: 90%;
+     height: 80%;
+     top: 35px;
+     font-weight: 600;
+     text-align: justify;
+     font-size: 18px;
+     line-height: 37px;
+     font-family: "Noto Serif Khmer", serif;
+     margin: auto;
+     z-index: 100;
+   }
+   
+/*===========================special ingredients====================*/
+   .mix-ingredients{
+     position: relative;
+     width: 420px;
+     height: 980px;
+     margin: auto;
+     /*background-color: aquamarine;*/
+   }
+   .latest-tech-ingredients{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+   }
+   .title-ingredients{
+     position: relative;
+     width: 85%;
+     height: 95px;
+     /*background-color: pink;*/
+     display: flex;
+     flex-direction: row;
+     margin: auto;
+   }
+   .title-left{
+     position: relative;
+     width: 50%;
+     height: 100%;
+     /*background-color: chartreuse;*/
+     display: block;
+   }
+   .title-left h1{
+     position: relative;
+     color: goldenrod;
+     font-size: 35px;
+     font-family: "Noto Serif Khmer", serif;
+   }
+   .title-left p{
+     position: relative;
+     text-align: end;
+     font-family: "Noto Serif Khmer", serif;
+     right: 40px;
+     font-size: 19px;
+     padding-top: 10px;
+   }
+   .title-right{
+     position: relative;
+     width: 50%;
+     height: 100%;
+     /*background-color: chartreuse;*/
+     display: block;
+   }
+   .title-right .techno{
+     position: relative;
+     color:#0A6736;
+     font-size: 30px;
+     font-family: "Noto Serif Khmer", serif;
+   }
+   .title-right .modern{
+     position: relative;
+     text-align: end;
+     top: 7px;
+     padding-top: 5px;
+     font-family: "Noto Serif Khmer", serif;
+     right: -1px;
+     font-size: 30px;
+     color: #0A6736;
+     width: 100%;
+     height: 50%;
+     /*background-color: #fff;*/
+   }
+   .special-ingredients-1{
+     position: relative;
+     width: 100%;
+     height: 300px;
+     /*background-color: #0A6736;*/
+     display: flex;
+     flex-direction: column;
+   }
+   .special-ingredients-1-a{
+     position: relative;
+     width: 100%;
+     height: 45px;
+     /*background-color:#FF001F ;*/
+   }
+   .special-ingredients-1-a h1{
+     position: relative;
+     /*background-color: #fff;*/
+     color: #0A6736;
+     width: 58%;
+     left: 29px;
+     top: 7px;
+   }
+   .special-ingredients-1-a img{
+     position: absolute;
+     width: 32%;
+     border-radius: 50%;
+     border: 3px solid goldenrod;
+     top: -65px;
+     right: 10px;
+     z-index: 100;
+   }
+   .special-ingredients-2{
+     position: relative;
+     width: 100%;
+     height: 440px;
+     /*background-color: #99eec0;*/
+   }
+   .special-ingredients-1-b{
+     position:relative;
+     background: url(./images/background-product.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+     bottom: 27px;
+     width: 95%;
+     height: 180px;
+     /*background-color: #99eec0;*/
+     margin: auto;
+     border: 3px solid goldenrod;
+     border-radius: 20px;
+   }
+   .special-ingredients-1-b p{
+     padding: 30px 15px;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 35px;
+     font-family: "Noto Serif Khmer", serif;
+   }
+   /*===================================================special 2 start=================================*/
+   .special-ingredients-2{
+     position: relative;
+     width: 100%;
+     height: 450px;
+     /*background-color: #0A6736;*/
+     display: flex;
+     flex-direction: column;
+   }
+   .special-ingredients-2-a{
+     position: relative;
+     width: 100%;
+     height: 45px;
+     /*background-color:#FF001F;*/
+   }
+   .special-ingredients-2-a h1{
+     position: relative;
+     /*background-color: #fff;*/
+     color: #0A6736;
+     width: 100%;
+     text-align: end;
+     font-size: 25px;
+     top: 27px;
+     font-weight: 600;
+     
+   }
+   .special-ingredients-2-a img{
+     position: absolute;
+     width: 32%;
+     border-radius: 50%;
+     border: 3px solid goldenrod;
+     top:-50px;
+     left: 15px;
+     z-index: 100;
+   }
+   .special-ingredients-2{
+     position: relative;
+     width: 100%;
+     height: 380px;
+     /*background-color: #99eec0;*/
+   }
+   .special-ingredients-2-b{
+     position:relative;
+     background: url(./images/background-product.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+     bottom: 27px;
+     width: 95%;
+     height: 280px;
+     /*background-color: #99eec0;*/
+     margin: auto;
+     border: 3px solid goldenrod;
+     border-radius: 20px;
+     bottom: 10px;
+   }
+   .special-ingredients-2-b p{
+     padding: 30px 15px;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 32px;
+     text-align: justify;
+     font-family: "Noto Serif Khmer", serif;
+   }
+   .natural-product{
+     position: relative;
+     width: 420px;
+     height: 370px;
+     /*background-color: #FF001F;*/
+     margin: auto;
+     top: 25px;
+   }
+.natural-medicine{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.medicine-safty{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     width: 95%;
+     height: 90px;
+     /*background-color: #0A6736;*/
+     margin: auto;
+}
+.natural-top{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: 100%;
+}
+.top-left{
+     position: relative;
+     width: 50%;
+     height: 80%;
+     /*background-color: aqua;*/
+}
+.top-left h1{
+     position: relative;
+     color: #FFAE10;
+     text-align: end;
+     font-size: 45px;
+     top: -25px;
+     right: 15px;
+     font-family: "Noto Serif Khmer", serif;
+}
+.top-right{
+     width: 50%;
+     height: 80%;
+     /*background-color: greenyellow;*/
+}
+.top-right h1{
+     color: #0A6736;
+     text-align: start;
+     font-size: 45px;
+     font-family: "Noto Serif Khmer", serif;
+}
+
+.natural-bottom{
+     width: 100%;
+     height: 100%;
+}
+.natural-bottom h2{
+     position: relative;
+     font-size: 23px;
+     font-family: "Noto Serif Khmer", serif;
+     text-align: center;
+     color: #0A67E9;
+     top: 7px;
+     
+
+}
+
+
+.medicine-photo{
+     position: relative;
+     width: 100%;
+     height: 220px;
+     display: flex;
+     flex-direction: row;
+}
+.medicine-photo-left{
+     width: 50%;
+     height: 100%;
+}
+.medicine-photo-left img{
+     width: 290px;
+     height: 350px;
+     animation: bounce 1s infinite;
+}
+.medicine-photo-right{
+     width: 50%;
+     height: 100%;
+     display: flex;
+}
+.medicine-photo-right img{
+     position: relative;
+     width: 18%;
+     height: 15%;
+     border: 1px solid rgb(221, 220, 220);
+     /*border-radius: 50px;*/
+     margin-left: 5px;
+     left:30%;
+     top: 280px;
+}
+.main-ingredients{
+     position: relative;
+     width: 420px;
+     height: 1200px;
+     margin: auto;
+     margin-top: 150px;
+     /*background-color: aqua;*/
+}
+.sub-ingredients-top{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.sub-ingredients{
+     width: 100%;
+     height: 19.5%;
+     /*background-color: #0A67E9;*/
+}
+.sub-ingredients h1{
+     height: 20px;
+     width: 95%;
+     text-align: center;
+     color: #0A6736;
+     font-family: "Noto Serif Khmer", serif;
+}
+.sub-activate-top{
+     width: 95%;
+     height: 20%;
+     margin: auto;
+}
+.sub-activate-top{
+     text-align: center;
+}
+.sub-activate-bottom{
+     position: relative;
+     width: 100%;
+     height: 60%;
+     /*background-color: #0A6736;*/
+     margin: auto;
+     border-radius: 30px;
+     border: 3px solid green;
+     display: flex;
+     flex-direction: row;
+     background-image: url(./images/background-leaf.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: auto;
+}
+.sub-activate-bottom p{
+     padding: 15px;
+     width: 100%;
+     text-align: justify;
+     font-family: "Noto Serif Khmer", serif;
+     line-height: 27px;
+     
+}
+.sub-activate-bottom .bottom-left{
+     position: relative;
+     width: 25%;
+     height: 100%;
+}
+.sub-activate-bottom .bottom-left img{
+     position: relative;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 3px solid goldenrod;
+     left: 10px;
+     top: 15px;
+}
+.sub-activate-bottom .bottom-right{
+     position: relative;
+     width: 75%;
+     height: 100%;
+}
+.sub-activate-bottom-1{
+     position: relative;
+     width: 100%;
+     height: 70%;
+}
+.sub-activate-bottom-1 .bottom-left img{
+     margin-top: 20px;
+}
+.sub-activate-bottom-2{
+     position: relative;
+     width: 100%;
+     height: 82%;
+     
+}
+.sub-activate-bottom-3{
+     position: relative;
+     width: 100%;
+     height: 60%;
+     bottom: 25px;
+}
+.sub-activate-top-up h1{
+     position: relative;
+     bottom: 27px;
+}
+.sub-activate-bottom-3 p{
+     font-size: 15px;
+}
+.s-a-t-up{
+     position: relative;
+     bottom: 22px;
+}
+.s-a-t-pin{
+     position: relative;
+     bottom: 20px;
+}
+
+
+.introduction-products{
+     position: relative;
+     width: 420px;
+     height: 90px;
+     margin: auto;
+     /*background-color: #0A6736;*/
+     top: -25px;
+}
+.sub-introduction{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+}
+.introction-top{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     width: 90%;
+     height: 45px;
+     margin: auto;
+
+}
+.h-left{
+     width: 50%;
+     height: 100%;
+     /*background-color: #FFAE10;*/
+}
+.h-left h1{
+     font-family: "Noto Serif Khmer", serif;
+     color: #FFAE10;
+}
+.h-right{
+     width: 50%;
+     height: 100%;
+     /*background-color: #FFAE10;*/
+}
+.h-right h1{
+     font-family: "Noto Serif Khmer", serif;
+     color: #0A6736;
+}
+.introction-bottom{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     width: 90%;
+     height: 45px;
+     margin: auto;
+}
+.b-left{
+     width: 50%;
+     height: 100%;
+     /*background-color: #68ff10;*/
+}
+.b-left p{
+     text-align: end;
+     margin-right: 15px;
+     font-family: "Noto Serif Khmer", serif;
+}
+.b-right{
+     width: 50%;
+     height: 100%;
+     /*background-color: #68ff10;*/
+}
+.b-right h1{
+     font-family: "Noto Serif Khmer", serif;
+     text-align: end;
+     color: #0A6736;
+}
+.ruler{
+     width: 420px;
+     height: 45px;
+     margin: auto;
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     top: 25px;
+}
+.sub-ruler-top{
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+}
+.sub-ruler{
+     width: 38%;
+     height: 100%;
+     border-top: 1px solid black;
+
+}
+.sub-ruler-mid{
+     width: 20%;
+     border: none;
+}
+.sub-ruler-mid img{
+     position: relative;
+     width: 80%;
+     height: 80%;
+     bottom: 22px;
+     margin-left: 10px;
+}
+.video-doctor{
+     position: relative;
+     width: 420px;
+     height: 350px;
+     margin: auto;
+     bottom: 27px;
+     
+}
+.video{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     
+}
+.video video{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     
+     
+}
+
+.doctor-name{
+     position: relative;
+     width: 420px;
+     height: 500px;
+     margin: auto;
+     /*background-color: #0A6736;*/
+     bottom: 15px;
+}
+.sub-doctor{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.d-text{
+     width: 100%;
+     height: 48px;
+     /*background-color: #FFAE10;*/
+}
+.d-text h1{
+     color: #FF001F;
+     font-family: "Noto Serif Khmer", serif;
+     font-size: 32px;
+}
+.d-sub-text{
+     position: relative;
+     width: 100%;
+     height: 112px;
+     top: 17px;
+     /*background-color: aqua;*/
+}
+.d-sub-text p{
+     font-family: "Noto Serif Khmer", serif;
+     font-size: 21px;
+     width: 98%;
+     text-align: justify;
+     font-weight: 600;
+     line-height: 35px;
+}
+.d-sub-text-bottom{
+     width: 100%;
+     height: 340px;
+     /*background-color: #0A6736;*/
+}
+.d-sub-text-bottom p{
+     font-size: 18px;
+     line-height: 33px;
+     text-align: justify;
+}
+.rule{
+     position: relative;
+     width: 420px;
+     height: 1px;
+     border: 1px solid green;
+     margin: auto;
+     bottom: 5px;
+}
+.rule button{
+     position: absolute;
+     right: 15px;
+     bottom: -19px;
+     width: 150px;
+     height: 38px;
+     background-color: #FF001F;
+     color: #fff;
+     font-size: 22px;
+     border: none;
+     border-radius: 20px;
+     font-weight: 600;
+     animation: bounce 1s infinite;
+}
+/*====================================================================*/
+
+.doctor-name-1{
+     position: relative;
+     width: 420px;
+     height: 300px;
+     margin: auto;
+     /*background-color: #0A6736;*/
+     bottom: 15px;
+}
+.d-sub-text-bottom-1{
+     position: relative;
+     top: 20px;
+}
+.sub-doctor-1{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+
+
+.d-text h1{
+     color: #FF001F;
+     font-family: "Noto Serif Khmer", serif;
+     font-size: 32px;
+}
+.d-sub-text{
+     position: relative;
+     width: 100%;
+     height: 112px;
+     top: 17px;
+     /*background-color: aqua;*/
+}
+.d-sub-text p{
+     font-family: "Noto Serif Khmer", serif;
+     font-size: 21px;
+     width: 98%;
+     text-align: justify;
+     font-weight: 600;
+     line-height: 35px;
+}
+.d-sub-text-bottom{
+     width: 100%;
+     height: 340px;
+     /*background-color: #0A6736;*/
+}
+.d-sub-text-bottom p{
+     font-size: 18px;
+     line-height: 33px;
+     text-align: justify;
+}
+.rule{
+     position: relative;
+     width: 420px;
+     height: 1px;
+     border: 1px solid green;
+     margin: auto;
+     bottom: 5px;
+}
+.rule button{
+     position: absolute;
+     right: 15px;
+     bottom: -19px;
+     width: 150px;
+     height: 38px;
+     background-color: #FF001F;
+     color: #fff;
+     font-size: 22px;
+     border: none;
+     border-radius: 20px;
+     font-weight: 600;
+     animation: bounce 1s infinite;
+     
+}
+
+
+
+
+
+.daily-usage{
+     width: 420px;
+     height: 450px;
+     position: relative;
+     margin: auto;
+     background-color: #2a580f;
+     border-radius: 10px;
+     opacity: 0.8;
+}
+.sub-usage{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+}
+.usage-title{
+     width: 90%;
+     height: 100px;
+     /*background-color: #FFAE10;*/
+     margin: auto;
+}
+.usage-title .each-day-use{
+     width: 100%;
+     height: 50%;
+     /*background-color: #0A67E9;*/
+}
+.usage-title .each-day-use h3{
+     color: #FFAE10;
+     text-align: center;
+     font-size: 22px;
+     font-family: "Noto Serif Khmer", serif;
+     padding-top: 7px;
+}
+.usage-title .each-day-effective{
+     width: 100%;
+     height: 50%;
+     /*background-color: #FF001F;*/
+}
+.usage-title .each-day-effective h3{
+     text-align: center;
+     color: #fff;
+     font-size: 22px;
+     font-family: "Noto Serif Khmer", serif;
+     padding-top: 7px;
+}
+.usage-details{
+     position: relative;
+     width: 90%;
+     height: 300px;
+     background-color: #fff;
+     margin: auto;
+     border-radius: 10px;
+     bottom: 10px;
+}
+.usage-details p{
+     font-size: 17px;
+     font-family: "Noto Serif Khmer", serif;
+     line-height: 32px;
+     padding: 8px 8px 10px 10px;
+     text-align: justify;
+     font-weight: 600;
+}
+/*=======================**** Step Healing ****======================*/
+.step-healing{
+     position: relative;
+     width: 420px;
+     height: 1050px;
+     margin: auto;
+     background-color: rgb(230, 224, 217);
+     top: 30px;
+}
+.sub-step-healing{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+/*======= ប្រើរួមគិតម្តង =======*/
+.step-healing-1{
+     position: relative;
+     width: 100%;
+     height: 24.8%;
+     /*background-color: #0A6736;*/
+}
+.step-healing-top{
+     position: relative;
+     width: 100%;
+     height: 25%;
+     /*background-color: #FFAE10;*/
+}
+.step-healing-top h1{
+     position: relative;
+     padding-top: 8px;
+     text-align: center;
+     color: #FF001F;
+     font-size: 40px;
+     font-family: "Noto Serif Khmer", serif;
+}
+.step-healing-bottom{
+     position: relative;
+     width: 97%;
+     height: 50%;
+     background-color: #fff;
+     border: 2px #0A6736 dashed;
+     border-radius: 5px;
+     margin: auto;
+}
+.step-healing-bottom p{
+     font-size: 16px;
+     text-align: justify;
+     padding: 10px;
+     line-height: 25px;
+}
+.step-healing-bottom-img{
+     position: relative;
+     width: 97%;
+     height: 27%;
+     margin: auto;
+     /*background-color: #0A6736;*/
+     
+}
+.step-healing-bottom-img img{
+     position: absolute;
+     width: 15%;
+     align-items: center;
+     left: 45%;
+     top: 25px;
+}
+.step-healing-bottom-1{
+     position: relative;
+     width: 97%;
+     height: 57%;
+     background-color: #fff;
+     border: 2px #0A6736 dashed;
+     border-radius: 5px;
+     margin: auto;
+}
+.step-healing-top-1 h1{
+     position: relative;
+     top: 25px;
+}
+.step-healing-bottom-2{
+     position: relative;
+     top: 25px;
+     
+
+}
+.step-healing-top-2 h1{
+     position: relative;
+     top: 25px;
+}
+.step-healing-bottom-3{
+     position: relative;
+     top: 25px;
+     
+
+}
+.special-img{
+     position: relative;
+     margin-top: 20px;
+}
+
+/*========================*/
+
+.recognising-products{
+     position: relative;
+     width: 420px;
+     height: 150px;
+     margin: auto;
+     /*background-color: #0A67E9;*/
+     top: 45px;
+}
+.text-recognize{
+     width: 97%;
+     height: 100%;
+     margin: auto;
+}
+.text-recognize span{
+     color: #02160b;
+     font-weight: 700;
+}
+.text-recognize p{
+     font-size: 22px;
+     text-align: center;
+     font-family: "Noto Serif Khmer", serif;
+     line-height: 34px;
+     color: #0A6736;
+}
